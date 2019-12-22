@@ -12,11 +12,11 @@
 1. Faça o download dos arquivos.
 2. Extraia o pacote e copie para seu webserver.
 3. Insira as linhas de codigo abaixo em seu website:
-
-require('waf.class.php');<br>
-$x = new WAF();<br>
+```php
+require('waf.class.php');
+$x = new WAF();
 $x->start();
-
+```
 4. Configure o bando de dados no arquivo waf.class.php
 5. Pronto, seu website esta protegido
 
@@ -30,7 +30,6 @@ $x->start();
 
 3. Caso você use o DDoSGuard, você tera que adicionar a linha na função start:
 	- @$this-useDDoSGuard();
-
 
 
 # Requerimentos
