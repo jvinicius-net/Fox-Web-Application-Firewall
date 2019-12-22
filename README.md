@@ -13,9 +13,9 @@
 2. Extraia o pacote e copie para seu webserver.
 3. Insira as linhas de codigo abaixo em seu website:
 
-require('waf.class.php');
-$x = new WAF();
-$x->start();
+require('waf.class.php');<br>
+$x = new WAF();<br>
+$x->start();<
 
 4. Configure o bando de dados no arquivo waf.class.php
 5. Pronto, seu website esta protegido
