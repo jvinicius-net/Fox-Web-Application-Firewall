@@ -17,7 +17,7 @@ require('waf.class.php');
 $x = new WAF();
 $x->start();
 ```
-4. Configure o bando de dados no arquivo waf.class.php
+4. Configure o banco de dados no arquivo waf.class.php
 5. Pronto, seu website esta protegido
 
 # Algumas alterações que podem ser feitas:
