@@ -23,14 +23,17 @@ $x->start();
 # Algumas alterações que podem ser feitas:
 
 1. Caso você use o Cloudflare, você tera que adicionar a linha na função start:
-	- @$this->useCloudflare();
-
+```php
+@$this->useCloudflare();
+```
 2. Caso você use o Blazingfast, você tera que adicionar a linha na função start:
-	- @$this-useBlazingfast();
-
+```php
+@$this-useBlazingfast();
+```
 3. Caso você use o DDoSGuard, você tera que adicionar a linha na função start:
-	- @$this-useDDoSGuard();
-
+```php
+@$this-useDDoSGuard();
+```
 
 # Requerimentos
 * PHP >= 5.6.0
