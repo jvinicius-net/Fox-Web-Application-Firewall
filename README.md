@@ -38,5 +38,5 @@ $x->start();
 * MySQL
 
 # Agradecimentos:
-| [<img src="https://avatars.githubusercontent.com/cristlxrd?s=115"><br><sub>Cristian</sub>](https://github.com/cristlxrd) | [<img src="https://avatars.githubusercontent.com/Alemalakra?s=115"><br><sub>Alemalakra</sub>](https://github.com/Alemalakra) | 
+| [<br><sub>Cristian</sub>](https://github.com/cristlxrd)[<br><sub>Alemalakra</sub>](https://github.com/Alemalakra) | 
 
