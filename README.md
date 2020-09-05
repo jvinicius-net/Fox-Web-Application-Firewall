@@ -7,30 +7,30 @@
 ![contributors](https://img.shields.io/github/contributors/jvinicius-net/Fox-Web-Application-Firewall.svg?longCache=true&style=flat-square)
 
 
-# Instalação
+# Installation
 
-1. Faça o download dos arquivos.
-2. Extraia o pacote e copie para seu webserver.
-3. Insira as linhas de codigo abaixo em seu website:
+1. Download the files.
+2. Extract the package and copy it to your webserver.
+3. Insert the lines of code below on your website:
 ```php
 require('waf.class.php');
 $x = new WAF();
 $x->start();
 ```
-4. Configure o banco de dados no arquivo waf.class.php
-5. Pronto, seu website esta protegido
+4. Configure the database in the waf.class.php file
+5. Ready, your website is protected
 
-# Algumas alterações que podem ser feitas:
+# Some changes that can be made:
 
-1. Caso você use o Cloudflare, você tera que adicionar a linha na função start:
+1. If you use Cloudflare, you will have to add the line in the start function:
 ```php
 @$this->useCloudflare();
 ```
-2. Caso você use o Blazingfast, você tera que adicionar a linha na função start:
+2. If you use Blazingfast, you will have to add the line in the start function:
 ```php
 @$this-useBlazingfast();
 ```
-3. Caso você use o DDoSGuard, você tera que adicionar a linha na função start:
+3. If you use DDoSGuard, you will have to add the line in the start function:
 ```php
 @$this-useDDoSGuard();
 ```
@@ -39,6 +39,6 @@ $x->start();
 * PHP >= 5.6.0
 * MySQL
 
-# Agradecimentos:
-[<p> Night </p>](https://github.com/reffinS)[<p> Cristian </p>](https://github.com/cristlxrd)[<p>Alemalakra</p>](https://github.com/Alemalakra)
+# Thanks for:
+[<p> MrakDev </p>](https://github.com/MrakDev)[<p> hexify1337 </p>](https://github.com/hexify1337)[<p>Alemalakra</p>](https://github.com/Alemalakra)
 
